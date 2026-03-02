@@ -9,7 +9,7 @@
 <img width="1536" height="1024" alt="Dataflow-Diagram" src="https://github.com/user-attachments/assets/4d30c8e1-2a98-436d-87b8-71aa3d48d1e4" />
 
 
-A Full-Stack SQL Practice & AI-Assisted Learning Platform built with React, Node.js, MongoDB, and OpenAI.
+A Full-Stack SQL Practice & AI-Assisted Learning Platform built with React, Node.js, MongoDB, and OpenAI/HuggingFace.
 
 🌐 Live Overview
 
@@ -278,7 +278,7 @@ Express validates input
 
 MongoDB provides schema/sample data
 
-OpenAI generates hint (if requested)
+OpenAI/huggingface generates hint (if requested)
 
 Backend sends response to frontend
 
