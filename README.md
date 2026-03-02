@@ -61,83 +61,86 @@ CipherSchools/
 ├── backend/
 │   ├── node_modules/
 │   ├── src/
+│   │   ├── config/
+│   │   │   ├── dbMongo.js
+│   │   │   ├── dbPostgres.js
+│   │   │   └── envconfig.js
+│   │   │
+│   │   ├── controllers/
+│   │   │   ├── assignmentController.js
+│   │   │   ├── authController.js
+│   │   │   ├── hintController.js
+│   │   │   └── queryController.js
+│   │   │
+│   │   ├── middlewares/
+│   │   │   ├── authMiddleware.js
+│   │   │   ├── errorHandler.js
+│   │   │   └── querySanitizer.js
+│   │   │
+│   │   ├── models/
+│   │   │   ├── Assignment.js
+│   │   │   ├── Attempt.js
+│   │   │   └── User.js
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── AssignmentRoutes.js
+│   │   │   ├── authRoutes.js
+│   │   │   ├── hintRoutes.js
+│   │   │   └── queryRoutes.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── llmService.js
+│   │   │   ├── logger.js
+│   │   │   └── sqlExecutor.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── formateResults.js
+│   │   │   └── validateInput.js
+│   │   │
+│   │   ├── app.js
+│   │   ├── server.js
+│   │   └── seedAssignment.js
+│   │
+│   ├── .env
 │   ├── .env.example
 │   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── api/
+│   │   │   └── axios.js
+│   │   │
+│   │   ├── assets/
+│   │   │   └── react.svg
+│   │   │
+│   │   ├── components/
+│   │   │   ├── AssignmentCard.jsx
+│   │   │   ├── AssignmentsView.jsx
+│   │   │   ├── AttemptView.jsx
+│   │   │   ├── LoginSignup.jsx
+│   │   │   ├── ResultsTable.jsx
+│   │   │   ├── SQLEditor.jsx
+│   │   │   ├── SQLStudio.jsx
+│   │   │   └── SchemaViewer.jsx
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── App.scss
+│   │   ├── index.css
+│   │   └── main.jsx
+│   │
+│   ├── .gitignore
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
 │   ├── package-lock.json
-│   └── package.json
+│   └── vite.config.js
 │
-├── config/
-│   ├── dbMongo.js
-│   ├── dbPostgres.js
-│   └── envconfig.js
-│
-├── controllers/
-│   ├── assignmentController.js
-│   ├── authController.js
-│   ├── hintController.js
-│   └── queryController.js
-│
-├── middlewares/
-│   ├── authMiddleware.js
-│   ├── errorHandler.js
-│   └── querySanitizer.js
-│
-├── models/
-│   ├── Assignment.js
-│   ├── Attempt.js
-│   └── User.js
-│
-├── routes/
-│   ├── AssignmentRoutes.js
-│   ├── authRoutes.js
-│   ├── hintRoutes.js
-│   └── queryRoutes.js
-│
-├── services/
-│   ├── llmService.js
-│   ├── logger.js
-│   └── sqlExecutor.js
-│
-├── utils/
-│   ├── formateResults.js
-│   └── validateInput.js
-│
-├── app.js
-├── seedAssignment.js
-└── server.js
-│
-└── frontend/
-    ├── public/
-    ├── src/
-    │   ├── api/
-    │   │   └── axios.js
-    │   │
-    │   ├── assets/
-    │   │   └── react.svg
-    │   │
-    │   ├── components/
-    │   │   ├── AssignmentCard.jsx
-    │   │   ├── AssignmentsView.jsx
-    │   │   ├── AttemptView.jsx
-    │   │   ├── LoginSignup.jsx
-    │   │   ├── ResultsTable.jsx
-    │   │   ├── SQLEditor.jsx
-    │   │   ├── SQLStudio.jsx
-    │   │   └── SchemaViewer.jsx
-    │   │
-    │   ├── App.jsx
-    │   ├── App.scss
-    │   ├── index.css
-    │   └── main.jsx
-    │
-    ├── .gitignore
-    ├── README.md
-    ├── eslint.config.js
-    ├── index.html
-    ├── package-lock.json
-    ├── package.json
-    └── vite.config.js
-
+└── README.md
 ✨ Key Features
 🧠 AI-Powered Hint System
 
