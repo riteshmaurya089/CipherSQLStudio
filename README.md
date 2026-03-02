@@ -1,4 +1,3 @@
-**# CipherSQLStudio
 🚀CipherSQLStudio, SQL Learning Platform<img width="1536" height="1024" alt="Dataflow-Diagram" src="https://github.com/user-attachments/assets/4d30c8e1-2a98-436d-87b8-71aa3d48d1e4" />
 
 
