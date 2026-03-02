@@ -31,7 +31,7 @@ This project simulates a modern SQL learning tool similar to LeetCode / HackerRa
 🧩 Architecture Overview
 User → React Frontend → Express Backend → MongoDB
                                ↓
-                           OpenAI API
+                           OpenAI/huggingface API
 
 React handles UI and SQL editor
 
